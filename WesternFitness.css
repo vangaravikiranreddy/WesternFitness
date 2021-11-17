@@ -1,0 +1,164 @@
+body{
+   background-image: url("fitness2.jpg");
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+.main
+{
+    text-align: center;
+    position: relative;
+}
+.left
+{
+    
+    width: 10%;
+    padding: 80px;
+    float: left;
+    position: absolute;
+    margin: 1px -2px;
+    display: block
+}
+.mid
+{
+ 
+    padding: 5px;
+    width: 35%;
+    margin: 28px 514px;
+    position: absolute;
+ 
+}
+.right
+{
+    
+    width: 16%;
+    position: absolute;
+    padding: 5px;
+    margin: 33px 1265px;
+    display: block;
+}
+.nav
+{
+display: inline-block;
+}
+.nav li{
+    display: inline-block;
+    margin: 15px 24px;   
+}
+.nav li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(7, 6, 6);
+    background-color: rgba(224, 30, 72, 0.959);
+    padding: 10px 31px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+.nav li a:hover,.nav li a.active{
+    background-color: white;
+    text-decoration: underline;
+}
+.btn
+{
+    padding: 6px;
+    margin: auto 8px;
+    border-radius: 10px;
+    background-color: rgb(73, 17, 90);
+    color: white;
+    border-color: white;
+    cursor: pointer;
+    border-width: 3px;
+}
+img{
+    height: 120px;
+    width: 157px;
+    position: absolute;
+    margin: -77px 0px 0px -110px;
+}
+.left h3{
+    font-size: 31px;
+    position: absolute;
+    margin: 48px 0px 0px -59px;
+}
+.forms
+{
+    border: 2px solid black;
+    position: absolute;
+    margin: 207px 14px;
+    padding: 26px 71px;
+    border-radius: 11px;
+    font-family: 'Open Sans', sans-serif;
+}
+.inputs
+{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+#name
+{
+    margin: 10px -5px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 98%;
+    font-size: 18px;
+}
+#name:focus
+{
+    background-color: #F0FFFF;
+}
+#age
+{
+    margin: 10px -5px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 98%;
+    font-size: 18px;
+}
+#age:focus
+{
+    background-color: #F0FFFF;
+}
+#mobile
+{
+    margin: 10px -5px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 98%;
+    font-size: 18px;
+}
+#mobile:focus
+{
+    background-color: #F0FFFF;
+}
+#address
+{
+    margin: 10px -5px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 98%;
+    font-size: 18px;
+}
+#address:focus
+{
+    background-color: #F0FFFF;
+}
+#submit
+{
+    margin: 10px -5px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    width: 98%;
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+}
